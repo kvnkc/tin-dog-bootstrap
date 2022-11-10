@@ -125,19 +125,7 @@ h1 {
    padding: 3% 2%;
  }
 
- @media (max-width: 1028px) {
-   #title {
-      text-align: center;
-   }
-   
-   .title-image {
-      position: static;
-      width: 40%;
-      transform: rotate(0)
-   }
- }
-
- /* Call to Action Section */
+  /* Call to Action Section */
 #cta {
    text-align: center;
    background-color: #ff4c68;
@@ -157,3 +145,15 @@ h1 {
    text-align: center;
    padding: 4.5rem;
 }
+
+ @media (max-width: 1028px) {
+   #title {
+      text-align: center;
+   }
+   
+   .title-image {
+      position: static;
+      width: 40%;
+      transform: rotate(0)
+   }
+ }

@@ -15,7 +15,8 @@ h1 {
  }
 
  .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
+    
  }
 
  /* Navigation Bar */
@@ -46,14 +47,19 @@ h1 {
 
  /* Title Image  */
  .title-image {
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%
  }
 
  /* Features */
 
  #features {
    padding: 6% 15%;
+   background-color: white;
+   position: relative;
+   z-index: 1;
  }
 
  .features {
@@ -117,4 +123,16 @@ h1 {
 
  .pricing-col {
    padding: 3% 2%;
+ }
+
+ @media (max-width: 1028px) {
+   #title {
+      text-align: center;
+   }
+   
+   .title-image {
+      position: static;
+      width: 40%;
+      transform: rotate(0)
+   }
  }
